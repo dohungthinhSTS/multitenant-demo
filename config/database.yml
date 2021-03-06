@@ -8,9 +8,9 @@ default: &default
 development:
   <<: *default
   database: multitenant_development
-  username: postgres
-  password: postgres
-  host: localhost
+  username: rails
+  password: password
+  host: db
 
 test:
   <<: *default
